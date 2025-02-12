@@ -3,7 +3,7 @@
 int main()
 {
     const double pi = 3.14;
-    int radius;
+    double radius;
     double area;
 
     scanf("%d",&radius);
