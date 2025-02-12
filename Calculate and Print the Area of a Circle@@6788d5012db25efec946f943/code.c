@@ -6,7 +6,7 @@ int main()
     double radius;
     double area;
 
-    scanf("%d",&radius);
+    scanf("%lf",&radius);
 
     area = pi * ((double)radius * radius);
 
