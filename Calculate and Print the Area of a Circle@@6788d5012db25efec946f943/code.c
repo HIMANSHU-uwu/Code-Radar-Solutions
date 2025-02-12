@@ -10,7 +10,7 @@ int main()
 
     area = pi * ((double)radius * radius);
 
-    printf("Area: %.2lf",area);
+    printf("Area: %.6lf",area);
 
     return 0;
 }
