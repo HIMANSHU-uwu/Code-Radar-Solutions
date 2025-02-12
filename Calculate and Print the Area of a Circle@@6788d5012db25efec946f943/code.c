@@ -10,7 +10,6 @@ int main()
 
     area = pi * (radius * radius);
 
-    scanf("%lf",&area);
     printf("Area: %.2lf",area);
 
     return 0;
