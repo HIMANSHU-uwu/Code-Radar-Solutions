@@ -8,7 +8,7 @@ int main()
 
     scanf("%d",&radius);
 
-    area = pi * (radius * radius);
+    area = pi * ((double)radius * radius);
 
     printf("Area: %.2lf",area);
 
