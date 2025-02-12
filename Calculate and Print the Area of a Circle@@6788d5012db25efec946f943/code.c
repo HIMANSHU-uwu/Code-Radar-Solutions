@@ -2,7 +2,7 @@
 
 int main()
 {
-    const double pi = 3.14159;
+    const double pi = 3.14;
     int radius;
     double area;
 
@@ -10,7 +10,7 @@ int main()
 
     area = pi * ((double)radius * radius);
 
-    printf("Area: %.6lf",area);
+    printf("Area: %.3lf",area);
 
     return 0;
 }
