@@ -5,13 +5,13 @@ int main()
     char a[100];
     scanf("%c",&a);
     if(a>='A' && a<='Z'){
-        printf("Uppercase");
+        printf("Uppercase",a);
     }
     else if(a>='a' && a<='z'){
-        printf("Lowercase");
+        printf("Lowercase",a);
     }
     else{
-        printf("Not an alphabet");
+        printf("Not an alphabet",a);
     }
     return 0;
 }
