@@ -11,7 +11,7 @@ int main()
         printf("%d",b);
     }
     else{
-        printf("Both are equal");
+        printf("0");
     }
     return 0;
 }
