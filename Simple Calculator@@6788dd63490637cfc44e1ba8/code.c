@@ -21,8 +21,12 @@ int main()
             printf("%d",result);
             break;
         case '/':
-            result = num1 / num2;
-            printf("%d",result);
+            if (num2 == 0) {
+                printf("error: division by zero\n");
+            } else {
+                result = num1 / num2;
+                printf("%d", result);
+            }
             break;
         default:
             printf("error");
