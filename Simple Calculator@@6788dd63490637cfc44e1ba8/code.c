@@ -2,11 +2,11 @@
 #include <stdio.h>
 int main()
 {
-    char operator;
+    char sign;
     int a,b;
     int result;
-    scanf("%d %d %c",&a,&b,&operator);
-    switch(operator){
+    scanf("%d %d %c",&a,&b,&sign);
+    switch(sign){
         case '+':
         result = num1 + num2;
         printf("%d",result);
@@ -18,7 +18,8 @@ int main()
         case '*':
         result = num1 * num2;
         printf("%d",result);
-        break;case '+':
+        break;
+        case '+':
         result = num1 / num2;
         printf("%d",result);
         break;
