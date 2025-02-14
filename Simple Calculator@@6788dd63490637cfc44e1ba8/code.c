@@ -22,7 +22,7 @@ int main()
             break;
         case '/':
             if (num2 == 0) {
-                printf("error: division by zero\n");
+                printf("error");
             } else {
                 result = num1 / num2;
                 printf("%d", result);
