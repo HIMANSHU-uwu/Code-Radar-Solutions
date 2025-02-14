@@ -9,23 +9,23 @@ int main()
     scanf("%c ",&sign);
     switch(sign){
         case '+':
-        result = num1 + num2;
-        printf("%d",result);
-        break;
+            result = num1 + num2;
+            printf("%d",result);
+            break;
         case '-':
-        result = num1 - num2;
-        printf("%d",result);
-        break;
+            result = num1 - num2;
+            printf("%d",result);
+            break;
         case '*':
-        result = num1 * num2;
-        printf("%d",result);
-        break;
+            result = num1 * num2;
+            printf("%d",result);
+            break;
         case '/':
-        result = num1 / num2;
-        printf("%d",result);
-        break;
+            result = num1 / num2;
+            printf("%d",result);
+            break;
         default:
-        printf("error");
+            printf("error");
         return 0;
     }
     
