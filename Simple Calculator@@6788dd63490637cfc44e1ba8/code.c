@@ -19,7 +19,7 @@ int main()
         result = num1 * num2;
         printf("%d",result);
         break;
-        case '+':
+        case '/':
         result = num1 / num2;
         printf("%d",result);
         break;
