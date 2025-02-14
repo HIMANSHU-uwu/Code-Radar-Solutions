@@ -2,11 +2,10 @@
 #include <stdio.h>
 int main()
 {
+    char operator;
     int a,b;
     int result;
-    char operator;
-    scanf("%d %d",&a,&b);
-    scanf("%c",&operator);
+    scanf("%d %d %c",&a,&b,&operator);
     switch(operator){
         case '+':
         result = num1 + num2;
