@@ -5,7 +5,8 @@ int main()
     char sign;
     int num1,num2;
     int result;
-    scanf("%d %d %c",&num1,&num2,&sign);
+    scanf("%d %d",&num1,&num2);
+    scanf("%c",&sign);
     switch(sign){
         case '+':
         result = num1 + num2;
