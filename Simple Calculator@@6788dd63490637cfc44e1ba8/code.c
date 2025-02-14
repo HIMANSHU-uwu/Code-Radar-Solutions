@@ -6,7 +6,7 @@ int main()
     int num1,num2;
     int result;
     scanf("%d %d",&num1,&num2);
-    scanf(" %c",&sign);
+    scanf(" %c ",&sign);
     switch(sign){
         case '+':
         result = num1 + num2;
