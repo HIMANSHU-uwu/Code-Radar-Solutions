@@ -13,14 +13,6 @@ int main()
             if(even<arr[i]){
             even=arr[i];}
         }
-        else{
-            if(i==n-1){
-                printf("-1");
-            }
-            else{
-                continue;
-            }
-        }
     }
     printf("%d",even);
     
