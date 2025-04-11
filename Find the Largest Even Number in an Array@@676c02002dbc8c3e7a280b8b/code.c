@@ -2,7 +2,7 @@
 #include <stdio.h>
 int main()
 {
-    int n,even=0;
+    int n,even=-14;
     scanf("%d",&n);
     int arr[n];
     for(int i=0;i<n;i++){
