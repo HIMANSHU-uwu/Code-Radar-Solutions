@@ -17,7 +17,6 @@ int main()
             continue;}
         }
         else{
-            printf("NO");
             break;
         }
         
