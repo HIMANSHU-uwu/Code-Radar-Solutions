@@ -22,7 +22,7 @@ int main()
             }
         }
     }
-    printf("%d",v)
+    printf("%d",even);
     
     
 
