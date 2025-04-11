@@ -15,9 +15,9 @@ int rotate(int arr[],int n,int k){
         return 0;
     }
     else{
-    reverse(arr[],0,n-1);
-    reverse(arr[],0,k-1);
-    reverse(arr[],k,n-1);
+    reverse(arr,0,n-1);
+    reverse(arr,0,k-1);
+    reverse(arr,k,n-1);
     }
 
 }
@@ -30,7 +30,7 @@ int main(){
     }
     int k;
     scanf("%d",&k);
-    rotate(arr[],n,k);
+    rotate(arr,n,k);
     for(int j=0;j<n;j++){
         printf("%d\n",arr[j]);
     }
