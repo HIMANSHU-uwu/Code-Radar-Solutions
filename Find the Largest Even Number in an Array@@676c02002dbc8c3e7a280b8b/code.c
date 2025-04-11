@@ -9,7 +9,7 @@ int main()
         scanf("%d",&arr[i]);
     }
     for(int i=0;i<n;i++){
-        if(arr[i]%2==0 && arr[i]%2==-1){
+        if(arr[i]%2==0 || arr[i]%2==-1){
             if(even<arr[i]){
             even=arr[i];}
         }
